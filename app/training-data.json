@@ -1,0 +1,947 @@
+Warning: truncated output (original token count: 9978)
+Total output lines: 1159
+
+{
+  "weeks": [
+    {
+      "week": 1,
+      "phase": "1. Python et outils",
+      "start": "2026-11-02",
+      "theme": "Python : bases solides + Git",
+      "resource": "OpenClassrooms – Bases de Python",
+      "hours": 10,
+      "deliverable": "10 scripts + dépôt GitHub"
+    },
+    {
+      "week": 2,
+      "phase": "1. Python et outils",
+      "start": "2026-11-09",
+      "theme": "Python intermédiaire : classes, venv, modules",
+      "resource": "Machine Learnia – Formation Python (YouTube)",
+      "hours": 10,
+      "deliverable": "Module nettoyage.py testé"
+    },
+    {
+      "week": 3,
+      "phase": "1. Python et outils",
+      "start": "2026-11-16",
+      "theme": "Pandas avancé + Projet 1 (nettoyage Kobo)",
+      "resource": "Kaggle Learn – Pandas",
+      "hours": 10,
+      "deliverable": "Projet 1 sur GitHub"
+    },
+    {
+      "week": 4,
+      "phase": "2. Machine learning",
+      "start": "2026-11-23",
+      "theme": "Introduction au ML, sur-apprentissage",
+      "resource": "Kaggle Learn – Intro to Machine Learning",
+      "hours": 10,
+      "deliverable": "Notebook Kaggle + courbe MAE"
+    },
+    {
+      "week": 5,
+      "phase": "2. Machine learning",
+      "start": "2026-11-30",
+      "theme": "scikit-learn : pipelines et validation croisée",
+      "resource": "MOOC scikit-learn (Inria)",
+      "hours": 10,
+      "deliverable": "Notebook pipeline + tableau de modèles"
+    },
+    {
+      "week": 6,
+      "phase": "2. Machine learning",
+      "start": "2026-12-07",
+      "theme": "Classification, métriques, hyperparamètres",
+      "resource": "MOOC scikit-learn (Inria)",
+      "hours": 10,
+      "deliverable": "Notebook classification + fiche"
+    },
+    {
+      "week": 7,
+      "phase": "2. Machine learning",
+      "start": "2026-12-14",
+      "theme": "Projet 2 : modèle sur données de terrain",
+      "resource": "MOOC scikit-learn (Inria)",
+      "hours": 10,
+      "deliverable": "Projet 2 sur GitHub"
+    },
+    {
+      "week": 8,
+      "phase": "3. LLM et API",
+      "start": "2026-12-21",
+      "theme": "Transformers : concepts et pipelines",
+      "resource": "Cours LLM Hugging Face (FR) – ch. 1",
+      "hours": 10,
+      "deliverable": "Notebook 4 tâches pipeline()"
+    },
+    {
+      "week": 9,
+      "phase": "3. LLM et API",
+      "start": "2026-12-28",
+      "theme": "Tokenisation et utilisation des modèles",
+      "resource": "Cours LLM Hugging Face (FR) – ch. 2",
+      "hours": 10,
+      "deliverable": "Tableau de comparaison de 3 modèles"
+    },
+    {
+      "week": 10,
+      "phase": "3. LLM et API",
+      "start": "2027-01-04",
+      "theme": "Fine-tuning d'un petit modèle",
+      "resource": "Cours LLM Hugging Face (FR) – ch. 4",
+      "hours": 10,
+      "deliverable": "Modèle publié sur le Hub"
+    },
+    {
+      "week": 11,
+      "phase": "3. LLM et API",
+      "start": "2027-01-11",
+      "theme": "API de LLM + Projet 3 (résumé JSON)",
+      "resource": "Anthropic Courses (GitHub)",
+      "hours": 10,
+      "deliverable": "Projet 3 + jeu de 20 tests"
+    },
+    {
+      "week": 12,
+      "phase": "4. RAG et applications",
+      "start": "2027-01-18",
+      "theme": "Embeddings, documents, découpage",
+      "resource": "DeepLearning.AI – Short courses",
+      "hours": 10,
+      "deliverable": "Notebook embeddings + corpus"
+    },
+    {
+      "week": 13,
+      "phase": "4. RAG et applications",
+      "start": "2027-01-25",
+      "theme": "Base vectorielle (Chroma) + jeu d'évaluation",
+      "resource": "DeepLearning.AI – Short courses",
+      "hours": 10,
+      "deliverable": "Index Chroma + 30 questions"
+    },
+    {
+      "week": 14,
+      "phase": "4. RAG et applications",
+      "start": "2027-02-01",
+      "theme": "Framework (LangChain/LlamaIndex), citations",
+      "resource": "Documentation LangChain",
+      "hours": 10,
+      "deliverable": "RAG avec sources citées"
+    },
+    {
+      "week": 15,
+      "phase": "4. RAG et applications",
+      "start": "2027-02-08",
+      "theme": "API FastAPI",
+      "resource": "Documentation FastAPI (FR)",
+      "hours": 10,
+      "deliverable": "API /ask testée"
+    },
+    {
+      "week": 16,
+      "phase": "4. RAG et applications",
+      "start": "2027-02-15",
+      "theme": "Brancher le RAG, mesurer, améliorer",
+      "resource": "Documentation FastAPI (FR)",
+      "hours": 10,
+      "deliverable": "Score mesuré sur 30 questions"
+    },
+    {
+      "week": 17,
+      "phase": "4. RAG et applications",
+      "start": "2027-02-22",
+      "theme": "Interface Streamlit + déploiement (Projet 4)",
+      "resource": "Hugging Face Spaces",
+      "hours": 10,
+      "deliverable": "Projet 4 en ligne"
+    },
+    {
+      "week": 18,
+      "phase": "5. Agents et MCP",
+      "start": "2027-03-01",
+      "theme": "Agents : fondamentaux",
+      "resource": "Cours Agents Hugging Face (FR)",
+      "hours": 10,
+      "deliverable": "Agent minimal écrit à la main"
+    },
+    {
+      "week": 19,
+      "phase": "5. Agents et MCP",
+      "start": "2027-03-08",
+      "theme": "smolagents : outils et traces",
+      "resource": "Cours Agents Hugging Face (FR)",
+      "hours": 10,
+      "deliverable": "Agent avec outil CSV"
+    },
+    {
+      "week": 20,
+      "phase": "5. Agents et MCP",
+      "start": "2027-03-15",
+      "theme": "LangGraph / LlamaIndex",
+      "resource": "Cours Agents Hugging Face (FR)",
+      "hours": 10,
+      "deliverable": "Graphe à 3 nœuds"
+    },
+    {
+      "week": 21,
+      "phase": "5. Agents et MCP",
+      "start": "2027-03-22",
+      "theme": "MCP + démarrage Projet 5",
+      "resource": "DeepLearning.AI – Short courses",
+      "hours": 10,
+      "deliverable": "Serveur MCP minimal + spécification"
+    },
+    {
+      "week": 22,
+      "phase": "6. Production et emploi",
+      "start": "2027-03-29",
+      "theme": "Docker, journaux, tests, coûts",
+      "resource": "Docker – Get started",
+      "hours": 10,
+      "deliverable": "Projet 4 conteneurisé"
+    },
+    {
+      "week": 23,
+      "phase": "6. Production et emploi",
+      "start": "2027-04-05",
+      "theme": "Portfolio : README, démo, article",
+      "resource": "Streamlit",
+      "hours": 10,
+      "deliverable": "Portfolio publié"
+    },
+    {
+      "week": 24,
+      "phase": "6. Production et emploi",
+      "start": "2027-04-12",
+      "theme": "Candidatures et entretiens",
+      "resource": "Offres d'emploi (LinkedIn, Welcome to the Jungle, etc.)",
+      "hours": 10,
+      "deliverable": "20 offres ciblées, 5 candidatures"
+    },
+    {
+      "week": "Total",
+      "phase": null,
+      "start": "",
+      "theme": null,
+      "resource": null,
+      "hours": 240,
+      "deliverable": null
+    }
+  ],
+  "exercises": [
+    {
+      "id": "S01-E1",
+      "week": 1,
+      "phase": "1. Python et outils",
+      "title": "10 mini-scripts Python",
+      "instructions": "Écrivez 10 scripts : conversion FCFA/EUR, table de multiplication, moyenne d'une liste, compter les voyelles, palindrome, FizzBuzz, maximum sans max(), inverser un dictionnaire, filtrer une liste par compréhension, lire un fichier ligne par ligne.",
+      "deliverable": "Dossier exercices_s1/ avec 10 fichiers .py",
+      "criteria": "Chaque script s'exécute sans erreur et affiche le résultat attendu",
+      "hours": 2
+    },
+    {
+      "id": "S01-E2",
+      "week": 1,
+      "phase": "1. Python et outils",
+      "title": "Premier dépôt Git",
+      "instructions": "Créez le dépôt 'parcours-ia', faites 5 commits aux messages clairs, créez une branche, fusionnez-la, puis poussez sur GitHub.",
+      "deliverable": "Lien du dépôt GitHub",
+      "criteria": "Historique lisible, 5 commits minimum, une branche fusionnée",
+      "hours": 1
+    },
+    {
+      "id": "S01-E3",
+      "week": 1,
+      "phase": "1. Python et outils",
+      "title": "Gestion d'erreurs",
+      "instructions": "Lisez un fichier inexistant avec try/except et affichez un message clair ; gérez aussi une division par zéro et une saisie non numérique.",
+      "deliverable": "Script erreurs.py",
+      "criteria": "Le programme ne plante jamais et explique le problème",
+      "hours": 1
+    },
+    {
+      "id": "S02-E1",
+      "week": 2,
+      "phase": "1. Python et outils",
+      "title": "Classe Enquete",
+      "instructions": "Créez une classe Enquete (nom, nb_reponses, nb_cibles) avec une méthode taux_reponse() et une méthode __str__.",
+      "deliverable": "Fichier enquete.py",
+      "criteria": "Trois enquêtes de test affichent le bon taux",
+      "hours": 1.5
+    },
+    {
+      "id": "S02-E2",
+      "week": 2,
+      "phase": "1. Python et outils",
+      "title": "Environnement reproductible",
+      "instructions": "Créez un venv, installez pandas, générez requirements.txt, puis reproduisez l'environnement dans un second dossier.",
+      "deliverable": "requirements.txt + notes",
+      "criteria": "Le script tourne dans le second dossier sans installation manuelle",
+      "hours": 1
+    },
+    {
+      "id": "S02-E3",
+      "week": 2,
+      "phase": "1. Python et outils",
+      "title": "Module nettoyage.py",
+      "instructions": "Écrivez 3 fonctions : supprimer les espaces, normaliser la casse, convertir des dates. Ajoutez des tests avec assert.",
+      "deliverable": "nettoyage.py + test_nettoyage.py",
+      "criteria": "Tous les assert passent",
+      "hours": 1.5
+    },
+    {
+      "id": "S03-E1",
+      "week": 3,
+      "phase": "1. Python et outils",
+      "title": "Nettoyer un export Kobo",
+      "instructions": "Partez d'un export CSV (réel ou fictif) : renommez les colonnes, supprimez les doublons, traitez les valeurs manquantes en justifiant chaque choix.",
+      "deliverable": "Notebook nettoyage_kobo.ipynb",
+      "criteria": "Chaque transformation est commentée ; aucune ligne perdue sans explication",
+      "hours": 1.5
+    },
+    {
+      "id": "S03-E2",
+      "week": 3,
+      "phase": "1. Python et outils",
+      "title": "Indicateurs par groupe",
+      "instructions": "Avec groupby, calculez 5 indicateurs par district ou village (effectifs, moyennes, taux).",
+      "deliverable": "Tableau d'indicateurs",
+      "criteria": "Les totaux recoupent le fichier brut",
+      "hours": 1
+    },
+    {
+      "id": "S03-E3",
+      "week": 3,
+      "phase": "1. Python et outils",
+      "title": "Fusion de deux tables",
+      "instructions": "Fusionnez une table ménages et une table individus avec merge ; comparez le nombre de lignes avant et après.",
+      "deliverable": "Notebook fusion.ipynb",
+      "criteria": "Le nombre de lignes obtenu est expliqué (jointure left/inner)",
+      "hours": 1
+    },
+    {
+      "id": "S03-E4",
+      "week": 3,
+      "phase": "1. Python et outils",
+      "title": "Projet 1 : script complet",
+      "instructions": "Regroupez le tout dans un script main.py qui lit l'export, nettoie et écrit un résumé chiffré. Rédigez le README.",
+      "deliverable": "Dépôt GitHub du Projet 1",
+      "criteria": "Un tiers peut lancer le script en suivant le README",
+      "hours": 1.5
+    },
+    {
+      "id": "S04-E1",
+      "week": 4,
+      "phase": "2. Machine learning",
+      "title": "Exercices Kaggle Intro ML",
+      "instructions": "Complétez tous les exercices du cours et notez votre score MAE final.",
+      "deliverable": "Capture d'écran / notebook",
+      "criteria": "Tous les exercices validés",
+      "hours": 2
+    },
+    {
+      "id": "S04-E2",
+      "week": 4,
+      "phase": "2. Machine learning",
+      "title": "Pourquoi séparer train et test",
+      "instructions": "Rédigez 5 lignes expliquant pourquoi on ne teste pas sur les données d'entraînement, avec une démonstration chiffrée.",
+      "deliverable": "Note + notebook",
+      "criteria": "L'écart train/test est montré par un chiffre",
+      "hours": 1.5
+    },
+    {
+      "id": "S04-E3",
+      "week": 4,
+      "phase": "2. Machine learning",
+      "title": "Courbe MAE selon la profondeur",
+      "instructions": "Faites varier la profondeur d'un arbre de 1 à 20 et tracez l'erreur de validation.",
+      "deliverable": "Graphique",
+      "criteria": "Le point de sur-apprentissage est identifié et commenté",
+      "hours": 1
+    },
+    {
+      "id": "S05-E1",
+      "week": 5,
+      "phase": "2. Machine learning",
+      "title": "Pipeline complet",
+      "instructions": "Construisez un pipeline : imputation, mise à l'échelle, one-hot encoding, modèle.",
+      "deliverable": "Notebook pipeline.ipynb",
+      "criteria": "Un seul appel fit/predict ; aucune fuite de données",
+      "hours": 2
+    },
+    {
+      "id": "S05-E2",
+      "week": 5,
+      "phase": "2. Machine learning",
+      "title": "Comparer 3 modèles",
+      "instructions": "Comparez régression linéaire, arbre et forêt avec validation croisée à 5 plis.",
+      "deliverable": "Tableau comparatif",
+      "criteria": "Moyenne et écart-type donnés pour chaque modèle",
+      "hours": 1.5
+    },
+    {
+      "id": "S05-E3",
+      "week": 5,
+      "phase": "2. Machine learning",
+      "title": "Synthèse chiffrée",
+      "instructions": "Résumez les résultats dans un tableau et dites quel modèle vous retenez et pourquoi.",
+      "deliverable": "Paragraphe de 5 lignes",
+      "criteria": "La décision s'appuie sur des chiffres",
+      "hours": 0.5
+    },
+    {
+      "id": "S06-E1",
+      "week": 6,
+      "phase": "2. Machine learning",
+      "title": "Régression logistique",
+      "instructions": "Entraînez une régression logistique, tracez la matrice de confusion, calculez précision et rappel.",
+      "deliverable": "Notebook classification.ipynb",
+      "criteria": "Les métriques sont interprétées en phrases",
+      "hours": 2
+    },
+    {
+      "id": "S06-E2",
+      "week": 6,
+      "phase": "2. Machine learning",
+      "title": "Recherche d'hyperparamètres",
+      "instructions": "Utilisez GridSearchCV sur un modèle de votre choix.",
+      "deliverable": "Notebook + meilleurs paramètres",
+      "criteria": "Le gain par rapport aux paramètres par défaut est mesuré",
+      "hours": 1.5
+    },
+    {
+      "id": "S06-E3",
+      "week": 6,
+      "phase": "2. Machine learning",
+      "title": "Fiche de révision",
+      "instructions": "Rédigez une fiche d'une page sur les notions du mois (sur-apprentissage, validation croisée, métriques).",
+      "deliverable": "Fiche PDF ou Markdown",
+      "criteria": "Un débutant la comprend",
+      "hours": 0.5
+    },
+    {
+      "id": "S07-E1",
+      "week": 7,
+      "phase": "2. Machine learning",
+      "title": "Cadrer le Projet 2",
+      "instructions": "Choisissez un jeu de données et une question ; fixez l'objectif et la métrique de réussite.",
+      "deliverable": "Note d'une demi-page",
+      "criteria": "La question est précise et mesurable",
+      "hours": 0.5
+    },
+    {
+      "id": "S07-E2",
+      "week": 7,
+      "phase": "2. Machine learning",
+      "title": "Trois modèles comparés",
+      "instructions": "Entraînez 3 modèles et rassemblez les résultats dans un tableau.",
+      "deliverable": "Notebook projet2.ipynb",
+      "criteria": "Résultats reproductibles (graine fixée)",
+      "hours": 2
+    },
+    {
+      "id": "S07-E3",
+      "week": 7,
+      "phase": "2. Machine learning",
+      "title": "Conclusion et limites",
+      "instructions": "Rédigez la conclusion honnête (limites, biais éventuels) et le README.",
+      "deliverable": "Dépôt GitHub du Projet 2",
+      "criteria": "Les limites sont explicitées",
+      "hours": 1.5
+    },
+    {
+      "id…1978 tokens truncated… "main.py",
+      "criteria": "/docs affiche les deux routes",
+      "hours": 1.5
+    },
+    {
+      "id": "S15-E2",
+      "week": 15,
+      "phase": "4. RAG et applications",
+      "title": "Tests avec curl",
+      "instructions": "Testez les routes avec curl et la documentation automatique.",
+      "deliverable": "Commandes notées",
+      "criteria": "Réponses 200 sur les cas normaux",
+      "hours": 0.5
+    },
+    {
+      "id": "S15-E3",
+      "week": 15,
+      "phase": "4. RAG et applications",
+      "title": "Gestion des erreurs",
+      "instructions": "Gérez la question vide et le délai dépassé avec les bons codes HTTP.",
+      "deliverable": "main.py mis à jour",
+      "criteria": "Codes 422/504 corrects",
+      "hours": 1
+    },
+    {
+      "id": "S15-E4",
+      "week": 15,
+      "phase": "4. RAG et applications",
+      "title": "Tests pytest",
+      "instructions": "Écrivez 3 tests automatiques pour l'API.",
+      "deliverable": "test_api.py",
+      "criteria": "Les 3 tests passent",
+      "hours": 1
+    },
+    {
+      "id": "S16-E1",
+      "week": 16,
+      "phase": "4. RAG et applications",
+      "title": "Brancher le RAG sur /ask",
+      "instructions": "Connectez la chaîne RAG à la route /ask.",
+      "deliverable": "API fonctionnelle",
+      "criteria": "Réponse avec sources via l'API",
+      "hours": 2
+    },
+    {
+      "id": "S16-E2",
+      "week": 16,
+      "phase": "4. RAG et applications",
+      "title": "Mesurer le score",
+      "instructions": "Passez les 30 questions et classez chaque réponse : exacte, partielle, fausse.",
+      "deliverable": "Tableau de résultats",
+      "criteria": "Un score global chiffré",
+      "hours": 1.5
+    },
+    {
+      "id": "S16-E3",
+      "week": 16,
+      "phase": "4. RAG et applications",
+      "title": "Améliorer et remesurer",
+      "instructions": "Ajoutez un reranking ou une réécriture de la requête et remesurez.",
+      "deliverable": "Comparaison avant/après",
+      "criteria": "Gain chiffré ou analyse de l'échec",
+      "hours": 0.5
+    },
+    {
+      "id": "S17-E1",
+      "week": 17,
+      "phase": "4. RAG et applications",
+      "title": "Interface de chat",
+      "instructions": "Créez une interface Streamlit avec historique de conversation.",
+      "deliverable": "app.py",
+      "criteria": "Un échange de 3 questions fonctionne",
+      "hours": 1.5
+    },
+    {
+      "id": "S17-E2",
+      "week": 17,
+      "phase": "4. RAG et applications",
+      "title": "Déployer sur Spaces",
+      "instructions": "Déployez sur Hugging Face Spaces en gérant la clé API en secret.",
+      "deliverable": "Lien public",
+      "criteria": "Application accessible sans installation, clé non exposée",
+      "hours": 1.5
+    },
+    {
+      "id": "S17-E3",
+      "week": 17,
+      "phase": "4. RAG et applications",
+      "title": "Page À propos",
+      "instructions": "Ajoutez une page : sources, limites connues, score d'évaluation.",
+      "deliverable": "Page dans l'application",
+      "criteria": "Le score de la semaine 16 y figure",
+      "hours": 1
+    },
+    {
+      "id": "S18-E1",
+      "week": 18,
+      "phase": "5. Agents et MCP",
+      "title": "Onboarding du cours",
+      "instructions": "Suivez l'unité 0 et créez les comptes nécessaires.",
+      "deliverable": "Comptes prêts",
+      "criteria": "Premier exercice du cours validé",
+      "hours": 0.5
+    },
+    {
+      "id": "S18-E2",
+      "week": 18,
+      "phase": "5. Agents et MCP",
+      "title": "Agent écrit à la main",
+      "instructions": "Programmez une boucle pensée-action-observation avec 2 outils : calculatrice et recherche dans un fichier.",
+      "deliverable": "agent_minimal.py",
+      "criteria": "Résout 3 questions nécessitant un outil",
+      "hours": 2.5
+    },
+    {
+      "id": "S18-E3",
+      "week": 18,
+      "phase": "5. Agents et MCP",
+      "title": "Chat template",
+      "instructions": "Expliquez le rôle du chat template et affichez-en un exemple.",
+      "deliverable": "Note de 5 lignes",
+      "criteria": "Exemple concret fourni",
+      "hours": 1
+    },
+    {
+      "id": "S19-E1",
+      "week": 19,
+      "phase": "5. Agents et MCP",
+      "title": "Agent smolagents",
+      "instructions": "Créez un agent avec un outil de recherche web.",
+      "deliverable": "Notebook",
+      "criteria": "Répond à une question nécessitant la recherche",
+      "hours": 1.5
+    },
+    {
+      "id": "S19-E2",
+      "week": 19,
+      "phase": "5. Agents et MCP",
+      "title": "Outil personnalisé",
+      "instructions": "Ajoutez un outil qui lit un CSV et renvoie des statistiques.",
+      "deliverable": "Outil + démonstration",
+      "criteria": "L'agent choisit l'outil de lui-même",
+      "hours": 1.5
+    },
+    {
+      "id": "S19-E3",
+      "week": 19,
+      "phase": "5. Agents et MCP",
+      "title": "Lire une trace",
+      "instructions": "Journalisez les étapes et commentez une exécution complète.",
+      "deliverable": "Trace annotée",
+      "criteria": "Chaque étape est expliquée",
+      "hours": 1
+    },
+    {
+      "id": "S20-E1",
+      "week": 20,
+      "phase": "5. Agents et MCP",
+      "title": "Graphe LangGraph",
+      "instructions": "Construisez un graphe à 3 nœuds (analyser, agir, répondre).",
+      "deliverable": "Notebook langgraph.ipynb",
+      "criteria": "Le graphe s'exécute de bout en bout",
+      "hours": 2
+    },
+    {
+      "id": "S20-E2",
+      "week": 20,
+      "phase": "5. Agents et MCP",
+      "title": "Validation humaine",
+      "instructions": "Ajoutez une étape de confirmation avant une action sensible.",
+      "deliverable": "Graphe mis à jour",
+      "criteria": "L'action ne part pas sans accord",
+      "hours": 1
+    },
+    {
+      "id": "S20-E3",
+      "week": 20,
+      "phase": "5. Agents et MCP",
+      "title": "Comparer deux approches",
+      "instructions": "Comparez smolagents et LangGraph dans un tableau d'avantages/inconvénients.",
+      "deliverable": "Tableau",
+      "criteria": "Au moins 4 critères",
+      "hours": 1
+    },
+    {
+      "id": "S21-E1",
+      "week": 21,
+      "phase": "5. Agents et MCP",
+      "title": "Concepts MCP",
+      "instructions": "Suivez le cours MCP et notez les concepts clés (serveur, outil, ressource).",
+      "deliverable": "Fiche d'une page",
+      "criteria": "Les termes sont définis avec vos mots",
+      "hours": 1.5
+    },
+    {
+      "id": "S21-E2",
+      "week": 21,
+      "phase": "5. Agents et MCP",
+      "title": "Serveur MCP minimal",
+      "instructions": "Créez un serveur exposant un outil lire_csv.",
+      "deliverable": "Code du serveur",
+      "criteria": "Un client le découvre et l'appelle",
+      "hours": 1.5
+    },
+    {
+      "id": "S21-E3",
+      "week": 21,
+      "phase": "5. Agents et MCP",
+      "title": "Spécifier le Projet 5",
+      "instructions": "Décrivez l'agent Kobo : entrées, outils, garde-fous, mesure de réussite.",
+      "deliverable": "Spécification d'une page",
+      "criteria": "Cas d'erreur prévus",
+      "hours": 1
+    },
+    {
+      "id": "S22-E1",
+      "week": 22,
+      "phase": "6. Production et emploi",
+      "title": "Dockerfile",
+      "instructions": "Écrivez le Dockerfile du Projet 4, construisez l'image et lancez-la.",
+      "deliverable": "Dockerfile + commandes",
+      "criteria": "L'application répond depuis le conteneur",
+      "hours": 2
+    },
+    {
+      "id": "S22-E2",
+      "week": 22,
+      "phase": "6. Production et emploi",
+      "title": "Journaux et coûts",
+      "instructions": "Journalisez chaque requête avec le nombre de tokens et le coût estimé.",
+      "deliverable": "Fichier de logs",
+      "criteria": "Coût total calculable",
+      "hours": 1
+    },
+    {
+      "id": "S22-E3",
+      "week": 22,
+      "phase": "6. Production et emploi",
+      "title": "Tests et README",
+      "instructions": "Ajoutez les tests pytest et la commande de lancement dans le README.",
+      "deliverable": "Dépôt mis à jour",
+      "criteria": "Un tiers lance les tests en une commande",
+      "hours": 1
+    },
+    {
+      "id": "S23-E1",
+      "week": 23,
+      "phase": "6. Production et emploi",
+      "title": "README de chaque projet",
+      "instructions": "Pour chaque projet : problème, démo, architecture, résultats, limites.",
+      "deliverable": "5 README",
+      "criteria": "Lisible en 3 minutes par un recruteur",
+      "hours": 2
+    },
+    {
+      "id": "S23-E2",
+      "week": 23,
+      "phase": "6. Production et emploi",
+      "title": "Vidéo de démonstration",
+      "instructions": "Enregistrez une démonstration de 2 minutes du Projet 4.",
+      "deliverable": "Lien vidéo",
+      "criteria": "Le cas d'usage est compris sans explication",
+      "hours": 1
+    },
+    {
+      "id": "S23-E3",
+      "week": 23,
+      "phase": "6. Production et emploi",
+      "title": "Article ou publication",
+      "instructions": "Rédigez un article ou un post LinkedIn racontant un projet et ses leçons.",
+      "deliverable": "Lien de publication",
+      "criteria": "Résultats chiffrés mentionnés",
+      "hours": 1
+    },
+    {
+      "id": "S24-E1",
+      "week": 24,
+      "phase": "6. Production et emploi",
+      "title": "Analyser 20 offres",
+      "instructions": "Rassemblez 20 offres d'ingénieur IA et relevez les compétences qui reviennent.",
+      "deliverable": "Tableau de mots-clés",
+      "criteria": "Les 5 compétences principales identifiées",
+      "hours": 1
+    },
+    {
+      "id": "S24-E2",
+      "week": 24,
+      "phase": "6. Production et emploi",
+      "title": "CV et 5 candidatures",
+      "instructions": "Adaptez votre CV aux offres et envoyez 5 candidatures.",
+      "deliverable": "5 candidatures suivies",
+      "criteria": "CV orienté résultats et projets",
+      "hours": 2
+    },
+    {
+      "id": "S24-E3",
+      "week": 24,
+      "phase": "6. Production et emploi",
+      "title": "Entraînement aux entretiens",
+      "instructions": "Répondez à voix haute à 10 questions : RAG, évaluation, hallucinations, coûts, choix de modèle.",
+      "deliverable": "Enregistrement ou notes",
+      "criteria": "Réponses claires en 2 minutes chacune",
+      "hours": 1
+    },
+    {
+      "id": "Total",
+      "week": null,
+      "phase": null,
+      "title": null,
+      "instructions": null,
+      "deliverable": null,
+      "criteria": null,
+      "hours": 97.5
+    }
+  ],
+  "projects": [
+    {
+      "name": "Projet 1",
+      "title": "Nettoyage d'un export Kobo",
+      "weeks": "3",
+      "deliverable": "Script main.py, README, résumé chiffré",
+      "criteria": "Reproductible par un tiers"
+    },
+    {
+      "name": "Projet 2",
+      "title": "Modèle prédictif sur données de terrain",
+      "weeks": "7",
+      "deliverable": "Notebook, tableau de 3 modèles, conclusion et limites",
+      "criteria": "Métrique choisie et justifiée"
+    },
+    {
+      "name": "Projet 3",
+      "title": "Résumeur de rapports en JSON",
+      "weeks": "11",
+      "deliverable": "Outil en ligne de commande, jeu de 20 tests",
+      "criteria": "Taux de JSON valide mesuré"
+    },
+    {
+      "name": "Projet 4",
+      "title": "Assistant RAG déployé avec sources citées",
+      "weeks": "17",
+      "deliverable": "Application en ligne, API FastAPI, jeu de 30 questions, score",
+      "criteria": "Score d'évaluation publié"
+    },
+    {
+      "name": "Projet 5",
+      "title": "Agent d'analyse de données Kobo",
+      "weeks": "21 (finalisé en 22-23)",
+      "deliverable": "Agent avec garde-fous, serveur MCP, rapport généré",
+      "criteria": "Gère les erreurs sans plantage"
+    },
+    {
+      "name": "Portfolio",
+      "title": "Site ou dépôt de présentation des 5 projets",
+      "weeks": "23",
+      "deliverable": "5 README, vidéo démo, article",
+      "criteria": "Un recruteur comprend en 3 minutes"
+    }
+  ],
+  "resources": [
+    {
+      "name": "OpenClassrooms – Bases de Python",
+      "url": "https://openclassrooms.com/fr/courses/7168871",
+      "language": "FR",
+      "cost": "Gratuit"
+    },
+    {
+      "name": "OpenClassrooms – Git et GitHub",
+      "url": "https://openclassrooms.com/fr/courses/7162856-gerez-du-code-avec-git-et-github",
+      "language": "FR",
+      "cost": "Gratuit"
+    },
+    {
+      "name": "Machine Learnia – Formation Python (YouTube)",
+      "url": "https://www.youtube.com/@MachineLearnia",
+      "language": "FR",
+      "cost": "Gratuit"
+    },
+    {
+      "name": "Kaggle Learn – Pandas",
+      "url": "https://www.kaggle.com/learn/pandas",
+      "language": "EN",
+      "cost": "Gratuit"
+    },
+    {
+      "name": "Kaggle Learn – Intro to Machine Learning",
+      "url": "https://www.kaggle.com/learn/intro-to-machine-learning",
+      "language": "EN",
+      "cost": "Gratuit"
+    },
+    {
+      "name": "MOOC scikit-learn (Inria)",
+      "url": "https://inria.github.io/scikit-learn-mooc/",
+      "language": "EN (quiz FUN : à confirmer)",
+      "cost": "Gratuit"
+    },
+    {
+      "name": "Cours LLM Hugging Face (FR) – ch. 1",
+      "url": "https://huggingface.co/learn/llm-course/fr/chapter1/1",
+      "language": "FR",
+      "cost": "Gratuit"
+    },
+    {
+      "name": "Cours LLM Hugging Face (FR) – ch. 2",
+      "url": "https://huggingface.co/learn/llm-course/fr/chapter2/1",
+      "language": "FR",
+      "cost": "Gratuit"
+    },
+    {
+      "name": "Cours LLM Hugging Face (FR) – ch. 3",
+      "url": "https://huggingface.co/learn/llm-course/fr/chapter3/1",
+      "language": "FR",
+      "cost": "Gratuit"
+    },
+    {
+      "name": "Cours LLM Hugging Face (FR) – ch. 4",
+      "url": "https://huggingface.co/learn/llm-course/fr/chapter4/1",
+      "language": "FR",
+      "cost": "Gratuit"
+    },
+    {
+      "name": "Anthropic Courses (GitHub)",
+      "url": "https://github.com/anthropics/courses",
+      "language": "EN",
+      "cost": "Gratuit"
+    },
+    {
+      "name": "DeepLearning.AI – Short courses",
+      "url": "https://www.deeplearning.ai/short-courses/",
+      "language": "EN",
+      "cost": "Gratuit"
+    },
+    {
+      "name": "Documentation LangChain",
+      "url": "https://python.langchain.com",
+      "language": "EN",
+      "cost": "Gratuit"
+    },
+    {
+      "name": "Documentation FastAPI (FR)",
+      "url": "https://fastapi.tiangolo.com/fr/",
+      "language": "FR",
+      "cost": "Gratuit"
+    },
+    {
+      "name": "Streamlit",
+      "url": "https://streamlit.io",
+      "language": "EN",
+      "cost": "Gratuit"
+    },
+    {
+      "name": "Hugging Face Spaces",
+      "url": "https://huggingface.co/spaces",
+      "language": "EN",
+      "cost": "Gratuit"
+    },
+    {
+      "name": "Cours Agents Hugging Face (FR)",
+      "url": "https://huggingface.co/learn/agents-course/fr/unit0/introduction",
+      "language": "FR",
+      "cost": "Gratuit"
+    },
+    {
+      "name": "Docker – Get started",
+      "url": "https://docs.docker.com/get-started/",
+      "language": "EN",
+      "cost": "Gratuit"
+    },
+    {
+      "name": "Google Colab",
+      "url": "https://colab.research.google.com",
+      "language": "EN",
+      "cost": "Gratuit"
+    },
+    {
+      "name": "Ollama (modèles en local)",
+      "url": "https://ollama.com",
+      "language": "EN",
+      "cost": "Gratuit"
+    },
+    {
+      "name": "VS Code",
+      "url": "https://code.visualstudio.com",
+      "language": "FR",
+      "cost": "Gratuit"
+    },
+    {
+      "name": "Git",
+      "url": "https://git-scm.com",
+      "language": "FR",
+      "cost": "Gratuit"
+    }
+  ]
+}
