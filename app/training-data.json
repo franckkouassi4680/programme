@@ -1,6 +1,3 @@
-Warning: truncated output (original token count: 9978)
-Total output lines: 1159
-
 {
   "weeks": [
     {
@@ -451,7 +448,222 @@ Total output lines: 1159
       "hours": 1.5
     },
     {
-      "id…1978 tokens truncated… "main.py",
+      "id": "S08-E1",
+      "week": 8,
+      "phase": "3. LLM et API",
+      "title": "pipeline() sur 4 tâches",
+      "instructions": "Sur Colab, utilisez pipeline() pour le sentiment, le résumé, la traduction et la génération de texte.",
+      "deliverable": "Notebook hf_pipelines.ipynb",
+      "criteria": "4 tâches exécutées avec des exemples en français",
+      "hours": 1.5
+    },
+    {
+      "id": "S08-E2",
+      "week": 8,
+      "phase": "3. LLM et API",
+      "title": "Expliquer un Transformer",
+      "instructions": "Expliquez en 10 lignes, à un non-technicien, ce qu'est un Transformer et l'attention.",
+      "deliverable": "Texte de 10 lignes",
+      "criteria": "Aucun jargon non expliqué",
+      "hours": 1
+    },
+    {
+      "id": "S08-E3",
+      "week": 8,
+      "phase": "3. LLM et API",
+      "title": "Explorer le Hub",
+      "instructions": "Créez un compte Hugging Face, chargez un modèle et notez sa taille, sa langue et sa licence.",
+      "deliverable": "Fiche du modèle",
+      "criteria": "Licence et limites correctement relevées",
+      "hours": 1.5
+    },
+    {
+      "id": "S09-E1",
+      "week": 9,
+      "phase": "3. LLM et API",
+      "title": "Tokenisation en français",
+      "instructions": "Tokenisez 5 phrases françaises avec 2 tokenizers, comptez les tokens, repérez les mots coupés.",
+      "deliverable": "Tableau + commentaire",
+      "criteria": "Une explication sur l'effet du découpage",
+      "hours": 1.5
+    },
+    {
+      "id": "S09-E2",
+      "week": 9,
+      "phase": "3. LLM et API",
+      "title": "Comparer 3 modèles",
+      "instructions": "Prenez 10 phrases et la même tâche ; comparez 3 modèles du Hub.",
+      "deliverable": "Tableau comparatif",
+      "criteria": "Un critère de comparaison explicite",
+      "hours": 2
+    },
+    {
+      "id": "S09-E3",
+      "week": 9,
+      "phase": "3. LLM et API",
+      "title": "Charger un dataset",
+      "instructions": "Chargez un dataset avec la bibliothèque datasets et affichez ses statistiques de base.",
+      "deliverable": "Notebook",
+      "criteria": "Effectifs et colonnes présentés",
+      "hours": 0.5
+    },
+    {
+      "id": "S10-E1",
+      "week": 10,
+      "phase": "3. LLM et API",
+      "title": "Fine-tuning d'un petit modèle",
+      "instructions": "Affinez un modèle léger (type DistilBERT) sur un petit jeu de classification, sur Colab.",
+      "deliverable": "Notebook finetune.ipynb",
+      "criteria": "L'entraînement se termine et le modèle prédit",
+      "hours": 2.5
+    },
+    {
+      "id": "S10-E2",
+      "week": 10,
+      "phase": "3. LLM et API",
+      "title": "Avant / après",
+      "instructions": "Mesurez l'exactitude du modèle avant puis après le fine-tuning.",
+      "deliverable": "Tableau de 2 lignes",
+      "criteria": "Le gain (ou l'absence de gain) est expliqué",
+      "hours": 1
+    },
+    {
+      "id": "S10-E3",
+      "week": 10,
+      "phase": "3. LLM et API",
+      "title": "Publier sur le Hub",
+      "instructions": "Publiez le modèle avec une fiche (model card) décrivant données, limites et usages.",
+      "deliverable": "Lien Hugging Face",
+      "criteria": "La fiche mentionne les limites",
+      "hours": 0.5
+    },
+    {
+      "id": "S11-E1",
+      "week": 11,
+      "phase": "3. LLM et API",
+      "title": "Premier appel API",
+      "instructions": "Faites un appel API, affichez la réponse, le nombre de tokens et estimez le coût.",
+      "deliverable": "Script api_test.py",
+      "criteria": "Le coût estimé est affiché",
+      "hours": 1
+    },
+    {
+      "id": "S11-E2",
+      "week": 11,
+      "phase": "3. LLM et API",
+      "title": "Température et streaming",
+      "instructions": "Testez 3 températures sur le même prompt et activez le streaming.",
+      "deliverable": "Comparaison de 3 sorties",
+      "criteria": "Différences décrites en 3 phrases",
+      "hours": 1
+    },
+    {
+      "id": "S11-E3",
+      "week": 11,
+      "phase": "3. LLM et API",
+      "title": "Projet 3 : résumeur JSON",
+      "instructions": "Créez un outil en ligne de commande qui résume un rapport et renvoie un JSON valide ; testez-le sur 20 exemples.",
+      "deliverable": "Dépôt GitHub du Projet 3",
+      "criteria": "Taux de JSON valide mesuré et reporté dans le README",
+      "hours": 2
+    },
+    {
+      "id": "S12-E1",
+      "week": 12,
+      "phase": "4. RAG et applications",
+      "title": "Embeddings et similarité",
+      "instructions": "Calculez les embeddings de 20 phrases et trouvez les plus proches d'une requête par similarité cosinus.",
+      "deliverable": "Notebook embeddings.ipynb",
+      "criteria": "Les 3 voisins retournés sont pertinents",
+      "hours": 1.5
+    },
+    {
+      "id": "S12-E2",
+      "week": 12,
+      "phase": "4. RAG et applications",
+      "title": "Constituer le corpus",
+      "instructions": "Rassemblez 10 documents publics (PDF) et extrayez leur texte.",
+      "deliverable": "Dossier corpus/",
+      "criteria": "Texte lisible, sources notées",
+      "hours": 1.5
+    },
+    {
+      "id": "S12-E3",
+      "week": 12,
+      "phase": "4. RAG et applications",
+      "title": "Taille des morceaux",
+      "instructions": "Testez 3 tailles de découpage et observez la pertinence des résultats.",
+      "deliverable": "Tableau de comparaison",
+      "criteria": "Une taille retenue avec justification",
+      "hours": 1
+    },
+    {
+      "id": "S13-E1",
+      "week": 13,
+      "phase": "4. RAG et applications",
+      "title": "Indexer dans Chroma",
+      "instructions": "Indexez le corpus dans Chroma et interrogez les 3 meilleurs passages.",
+      "deliverable": "Notebook index.ipynb",
+      "criteria": "Résultats pertinents sur 5 requêtes manuelles",
+      "hours": 1.5
+    },
+    {
+      "id": "S13-E2",
+      "week": 13,
+      "phase": "4. RAG et applications",
+      "title": "Métadonnées",
+      "instructions": "Ajoutez source et numéro de page, puis filtrez par document.",
+      "deliverable": "Notebook",
+      "criteria": "Le filtre renvoie le bon document",
+      "hours": 1
+    },
+    {
+      "id": "S13-E3",
+      "week": 13,
+      "phase": "4. RAG et applications",
+      "title": "Jeu d'évaluation",
+      "instructions": "Écrivez 30 questions avec la réponse attendue et la page source.",
+      "deliverable": "Fichier eval.csv",
+      "criteria": "30 lignes, réponses vérifiables dans le corpus",
+      "hours": 1.5
+    },
+    {
+      "id": "S14-E1",
+      "week": 14,
+      "phase": "4. RAG et applications",
+      "title": "RAG avec un framework",
+      "instructions": "Reproduisez le RAG avec LangChain ou LlamaIndex.",
+      "deliverable": "Notebook rag_framework.ipynb",
+      "criteria": "Réponses cohérentes sur 5 questions",
+      "hours": 2
+    },
+    {
+      "id": "S14-E2",
+      "week": 14,
+      "phase": "4. RAG et applications",
+      "title": "Comparer avec la version manuelle",
+      "instructions": "Comparez la version manuelle et celle du framework (lignes de code, lisibilité).",
+      "deliverable": "Note de 5 lignes",
+      "criteria": "Un avis argumenté",
+      "hours": 0.5
+    },
+    {
+      "id": "S14-E3",
+      "week": 14,
+      "phase": "4. RAG et applications",
+      "title": "Citer les sources",
+      "instructions": "Faites afficher les sources (document, page) avec chaque réponse.",
+      "deliverable": "Application mise à jour",
+      "criteria": "Chaque réponse cite au moins une source",
+      "hours": 1.5
+    },
+    {
+      "id": "S15-E1",
+      "week": 15,
+      "phase": "4. RAG et applications",
+      "title": "API /health et /ask",
+      "instructions": "Créez les deux routes avec des modèles Pydantic.",
+      "deliverable": "main.py",
       "criteria": "/docs affiche les deux routes",
       "hours": 1.5
     },
