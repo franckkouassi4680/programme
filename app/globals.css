@@ -23,7 +23,6 @@ button, input, select, textarea { font: inherit; }
 .dark .muted { color: #a8abc0; }
 .performance-banner { min-height: 142px; }
 .performance-icon { filter: drop-shadow(0 8px 12px rgba(4, 33, 86, .28)); }
-.task-list-scroll { max-height: 400px; overflow-y: auto; overscroll-behavior-y: contain; -webkit-overflow-scrolling: touch; touch-action: pan-y; scrollbar-gutter: stable; }
 header > div:last-child > div:last-child { overflow: hidden; border: 2px solid #fff; background: url('/franck-profile.jpe') 32% 30% / 170% auto no-repeat !important; color: transparent; font-size: 0; box-shadow: 0 4px 12px rgba(15, 64, 125, .22); transform: scaleX(-1); }
 @keyframes float-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
 .animate-in { animation: float-in .45s ease both; }
@@ -32,5 +31,4 @@ header > div:last-child > div:last-child { overflow: hidden; border: 2px solid #
   html, body { max-width: 100%; overflow-x: hidden; }
   .dashboard-shell { min-width: 0; }
   .surface:hover { transform: none; }
-  .task-list-scroll { max-height: 55vh; max-height: 55dvh; }
 }
