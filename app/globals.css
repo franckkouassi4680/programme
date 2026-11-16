@@ -28,6 +28,8 @@ button, input, select, textarea { font: inherit; }
 .task-list-scroll::-webkit-scrollbar-track { border-radius: 999px; background: #eef2ff; }
 .task-list-scroll::-webkit-scrollbar-thumb { border: 2px solid #eef2ff; border-radius: 999px; background: #8b5cf6; }
 .task-list-scroll::-webkit-scrollbar-thumb:hover { background: #6d28d9; }
+.training-dialog { background-image: linear-gradient(rgba(30, 20, 52, .72), rgba(30, 20, 52, .84)), url('/objectif-mois.jpg'); background-position: center; background-size: cover; }
+.dark .training-dialog { background-image: linear-gradient(rgba(18, 17, 29, .76), rgba(18, 17, 29, .88)), url('/objectif-mois.jpg'); }
 .reports-dialog { background-image: linear-gradient(rgba(255, 255, 255, .76), rgba(255, 255, 255, .88)), url('/rapport-bg.jpg'); background-position: center; background-size: cover; }
 .dark .reports-dialog { background-image: linear-gradient(rgba(25, 26, 40, .78), rgba(25, 26, 40, .9)), url('/rapport-bg.jpg'); }
 header > div:last-child > div:last-child { overflow: hidden; border: 2px solid #fff; background: url('/franck-profile.jpe') 32% 30% / 170% auto no-repeat !important; color: transparent; font-size: 0; box-shadow: 0 4px 12px rgba(15, 64, 125, .22); transform: scaleX(-1); }
