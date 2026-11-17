@@ -1,0 +1,875 @@
+{
+  "sheets": [
+    {
+      "name": "Vue d'ensemble",
+      "title": "FORMATION N8N, AUTOMATISATION & AGENTS IA",
+      "subtitle": "Synthèse opérationnelle du parcours complet • 12 semaines • Base indicative : 10 heures par semaine",
+      "headers": [
+        "Élément",
+        "Synthèse",
+        null,
+        null,
+        null,
+        null
+      ],
+      "rows": [
+        [
+          "Objectif",
+          "Savoir concevoir, tester, sécuriser et livrer des automatisations et agents IA pour des ONG, PME et clients.",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Durée indicative",
+          "12 semaines, environ 120 heures à raison de 10 heures par semaine.",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Méthode",
+          "Cours et vidéos, reproduction guidée, exercices, tests, documentation, mini-projet et évaluation.",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Progression",
+          "Commencer en local gratuitement, puis déployer sur un VPS lorsque les bases sont maîtrisées.",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Résultat attendu",
+          "Un portfolio de 4 à 6 démonstrations, dont un projet complet de gestion des demandes.",
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          "Profil d'application",
+          "Automatisation métier, collecte et qualité des données, reporting ONG/PME, assistants IA.",
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    {
+      "name": "Programme 12 semaines",
+      "title": "PROGRAMME DE FORMATION",
+      "subtitle": "Plan de progression proposé. Validez les livrables avant de passer au bloc suivant.",
+      "headers": [
+        "Période",
+        "Module",
+        "Contenu principal",
+        "Livrable / validation",
+        "Statut",
+        null
+      ],
+      "rows": [
+        [
+          "Semaine 1",
+          "Module 1",
+          "Découvrir n8n, workflows, nœuds et interface",
+          "Créer un premier workflow manuel",
+          "À faire",
+          null
+        ],
+        [
+          "Semaine 2",
+          "Module 1",
+          "Installation locale, VPS/Hostinger, credentials, Google Sheets/Drive/Gmail",
+          "Formulaire → Google Sheets → e-mail de confirmation",
+          "À faire",
+          null
+        ],
+        [
+          "Semaine 3",
+          "Module 2",
+          "Triggers, JSON, structure des données, expressions",
+          "Workflow déclenché par horaire ou événement",
+          "À faire",
+          null
+        ],
+        [
+          "Semaine 4",
+          "Module 2",
+          "API, HTTP Request, Webhooks, IF, Switch, Merge, Loop, prompts",
+          "API → transformation → stockage avec gestion d'erreur",
+          "À faire",
+          null
+        ],
+        [
+          "Semaine 5",
+          "Module 3",
+          "OpenAI API, AI Agent, modèle, mémoire et outils",
+          "Agent IA simple qui répond à une demande",
+          "À faire",
+          null
+        ],
+        [
+          "Semaine 6",
+          "Module 3",
+          "WhatsApp, chatbot web, RAG, devis/factures, scraping, voix et vidéo",
+          "Assistant documentaire ou assistant client avec validation humaine",
+          "À faire",
+          null
+        ],
+        [
+          "Semaine 7",
+          "Module 4",
+          "Support client WhatsApp et prise de rendez-vous",
+          "Assistant client et calendrier",
+          "À faire",
+          null
+        ],
+        [
+          "Semaine 8",
+          "Module 4",
+          "Relances, CRM, prospection, e-commerce et tableau de bord",
+          "Processus commercial automatisé",
+          "À faire",
+          null
+        ],
+        [
+          "Semaine 9",
+          "Module 5",
+          "Choisir une niche et concevoir 5 offres de services",
+          "Catalogue de services et démonstration",
+          "À faire",
+          null
+        ],
+        [
+          "Semaine 10",
+          "Module 5",
+          "Tarification, périmètre, coûts, contrat, livraison et recherche de clients",
+          "Offre commerciale avec prix et conditions",
+          "À faire",
+          null
+        ],
+        [
+          "Semaine 11",
+          "Module 6",
+          "Claude Code, MCP, connexion à n8n et permissions",
+          "Connexion de test et workflow contrôlé",
+          "À faire",
+          null
+        ],
+        [
+          "Semaine 12",
+          "Module 6",
+          "Génération, correction, optimisation et projet final",
+          "Projet final documenté et démontré",
+          "À faire",
+          null
+        ]
+      ]
+    },
+    {
+      "name": "Modules et leçons",
+      "title": "DÉTAIL DES 6 MODULES",
+      "subtitle": "Notions à apprendre, compétences visées et travaux pratiques.",
+      "headers": [
+        "N°",
+        "Module",
+        "Contenu à maîtriser",
+        "Projet / livrable",
+        "Niveau",
+        null
+      ],
+      "rows": [
+        [
+          "1",
+          "Bases solides",
+          "Installation locale et VPS; interface; workflows; nœuds; déclencheurs; différence automatisation/agent; Google Sheets, Drive et Gmail.",
+          "Formulaire → Sheets → e-mail",
+          "Débutant",
+          null
+        ],
+        [
+          "2",
+          "Puissance technique",
+          "Triggers; API; JSON; HTTP Request; Webhooks; IF; Switch; Merge; Loop; expressions; transformations; prompts; gestion des erreurs.",
+          "API publique → nettoyage → stockage",
+          "Intermédiaire",
+          null
+        ],
+        [
+          "3",
+          "Premiers agents IA",
+          "OpenAI API; AI Agent; outils; mémoire; chatbot WhatsApp et web; RAG; devis/factures; relances; scraping responsable; réceptionniste vocal; agent vidéo.",
+          "Assistant IA métier avec base documentaire",
+          "Intermédiaire à avancé",
+          null
+        ],
+        [
+          "4",
+          "Automatisation Business",
+          "Service client; rendez-vous; calendrier; relances; prospection; CRM; e-commerce; commandes; paiements; tableaux de bord.",
+          "Système client de la demande au suivi",
+          "Avancé",
+          null
+        ],
+        [
+          "5",
+          "Monétisation",
+          "Offres PME; choix de niche; tarification; coûts tiers; contrat; périmètre; livraison; maintenance; acquisition client.",
+          "Offre commerciale et démonstration",
+          "Business",
+          null
+        ],
+        [
+          "6",
+          "Claude Code + MCP",
+          "Installer Claude Code; comprendre MCP; connecter un serveur MCP n8n; génération et correction de workflows; permissions; tests et déploiement.",
+          "Workflow conçu avec assistance IA, vérifié et documenté",
+          "Avancé",
+          null
+        ]
+      ]
+    },
+    {
+      "name": "Ressources et liens",
+      "title": "RESSOURCES ET TUTORIELS",
+      "subtitle": "Les liens YouTube ci-dessous ouvrent des recherches ciblées en français. Vérifiez la date et la version des tutoriels.",
+      "headers": [
+        "Thème",
+        "Sujet",
+        "Type",
+        "Lien",
+        null,
+        null
+      ],
+      "rows": [
+        [
+          "n8n",
+          "Tutoriel débutant et premier workflow",
+          "YouTube, recherche ciblée",
+          "https://www.youtube.com/results?search_query=n8n+tutoriel+debutant+francais+premier+workflow",
+          null,
+          null
+        ],
+        [
+          "Installation",
+          "Installer n8n localement avec Docker",
+          "YouTube, recherche ciblée",
+          "https://www.youtube.com/results?search_query=installer+n8n+local+docker+windows+francais",
+          null,
+          null
+        ],
+        [
+          "Hébergement",
+          "Installer n8n sur Hostinger VPS",
+          "YouTube, recherche ciblée",
+          "https://www.youtube.com/results?search_query=installer+n8n+hostinger+VPS+francais",
+          null,
+          null
+        ],
+        [
+          "Interface",
+          "Comprendre les triggers et l'interface",
+          "YouTube, recherche ciblée",
+          "https://www.youtube.com/results?search_query=n8n+triggers+declencheurs+interface+formation+francais",
+          null,
+          null
+        ],
+        [
+          "API",
+          "HTTP Request et API avec n8n",
+          "YouTube, recherche ciblée",
+          "https://www.youtube.com/results?search_query=n8n+API+HTTP+Request+tutoriel+francais",
+          null,
+          null
+        ],
+        [
+          "JSON",
+          "Apprendre JSON pour n8n",
+          "YouTube, recherche ciblée",
+          "https://www.youtube.com/results?search_query=JSON+pour+n8n+debutant+francais",
+          null,
+          null
+        ],
+        [
+          "Webhooks",
+          "Webhooks avec n8n",
+          "YouTube, recherche ciblée",
+          "https://www.youtube.com/results?search_query=n8n+webhook+tutoriel+francais",
+          null,
+          null
+        ],
+        [
+          "Agents IA",
+          "Créer un agent IA avec n8n",
+          "YouTube, recherche ciblée",
+          "https://www.youtube.com/results?search_query=n8n+AI+Agent+tutoriel+francais",
+          null,
+          null
+        ],
+        [
+          "WhatsApp",
+          "Chatbot WhatsApp avec n8n et IA",
+          "YouTube, recherche ciblée",
+          "https://www.youtube.com/results?search_query=chatbot+WhatsApp+n8n+OpenAI+tutoriel+francais",
+          null,
+          null
+        ],
+        [
+          "RAG",
+          "Chatbot RAG avec documents PDF",
+          "YouTube, recherche ciblée",
+          "https://www.youtube.com/results?search_query=n8n+RAG+chatbot+PDF+francais",
+          null,
+          null
+        ],
+        [
+          "Facturation",
+          "Automatiser devis, factures et relances",
+          "YouTube, recherche ciblée",
+          "https://www.youtube.com/results?search_query=n8n+automatisation+devis+factures+francais",
+          null,
+          null
+        ],
+        [
+          "Prospection",
+          "Scraping et qualification de leads",
+          "YouTube, recherche ciblée",
+          "https://www.youtube.com/results?search_query=n8n+scraping+prospection+leads+francais",
+          null,
+          null
+        ],
+        [
+          "Vocal",
+          "Agent vocal IA avec n8n",
+          "YouTube, recherche ciblée",
+          "https://www.youtube.com/results?search_query=n8n+agent+vocal+IA+tutoriel+francais",
+          null,
+          null
+        ],
+        [
+          "Business",
+          "Vendre des services d'automatisation",
+          "YouTube, recherche ciblée",
+          "https://www.youtube.com/results?search_query=vendre+services+automatisation+IA+freelance+francais",
+          null,
+          null
+        ],
+        [
+          "Claude Code",
+          "Claude Code et MCP n8n",
+          "YouTube, recherche ciblée",
+          "https://www.youtube.com/results?search_query=Claude+Code+MCP+n8n+tutoriel+francais",
+          null,
+          null
+        ],
+        [
+          "Documentation",
+          "Documentation officielle n8n",
+          "Officiel",
+          "https://docs.n8n.io/",
+          null,
+          null
+        ],
+        [
+          "Docker",
+          "Installation n8n avec Docker",
+          "Officiel",
+          "https://docs.n8n.io/hosting/installation/docker/",
+          null,
+          null
+        ],
+        [
+          "IA n8n",
+          "Documentation n8n AI",
+          "Officiel",
+          "https://docs.n8n.io/advanced-ai/",
+          null,
+          null
+        ],
+        [
+          "OpenAI",
+          "Documentation API OpenAI",
+          "Officiel",
+          "https://platform.openai.com/docs/",
+          null,
+          null
+        ],
+        [
+          "MCP",
+          "Documentation Model Context Protocol",
+          "Officiel",
+          "https://modelcontextprotocol.io/",
+          null,
+          null
+        ],
+        [
+          "Claude Code",
+          "Documentation Claude Code",
+          "Officiel",
+          "https://docs.anthropic.com/en/docs/claude-code/overview",
+          null,
+          null
+        ],
+        [
+          "Hostinger",
+          "Guide Hostinger n8n",
+          "Guide hébergeur",
+          "https://www.hostinger.com/fr/tutoriels/installer-n8n/",
+          null,
+          null
+        ]
+      ]
+    },
+    {
+      "name": "Portfolio projets",
+      "title": "PROJETS À CONSTRUIRE",
+      "subtitle": "Six démonstrations pour prouver vos compétences à des ONG, PME et clients.",
+      "headers": [
+        "N°",
+        "Projet",
+        "Architecture",
+        "Livrables attendus",
+        "Niveau",
+        null
+      ],
+      "rows": [
+        [
+          "1",
+          "Collecte automatisée",
+          "Google Forms → n8n → Google Sheets → Gmail",
+          "Formulaire, données enregistrées, e-mail de confirmation, gestion d'erreurs",
+          "Débutant",
+          null
+        ],
+        [
+          "2",
+          "Assistant WhatsApp IA",
+          "WhatsApp → n8n → modèle IA → réponse",
+          "Réponses contrôlées, journal des échanges, transfert à un humain",
+          "Intermédiaire",
+          null
+        ],
+        [
+          "3",
+          "Gestion commerciale",
+          "Formulaire → CRM → devis → facture → relances",
+          "Suivi des statuts, calculs vérifiés, approbation et arrêt des relances après paiement",
+          "Intermédiaire",
+          null
+        ],
+        [
+          "4",
+          "Assistant documentaire RAG",
+          "Documents → découpage → embeddings → recherche → réponse",
+          "Chatbot qui répond avec passages sources et indique ses limites",
+          "Avancé",
+          null
+        ],
+        [
+          "5",
+          "Automatisation ONG",
+          "KoboToolbox → n8n → contrôle qualité → Power BI",
+          "Alertes de données, contrôles, consolidation et rapport",
+          "Spécialisé",
+          null
+        ],
+        [
+          "6",
+          "Mini-SaaS",
+          "Interface web → API → n8n → agent IA → base de données",
+          "Application testable avec authentification, journalisation et documentation",
+          "Expert",
+          null
+        ]
+      ]
+    },
+    {
+      "name": "Offres commerciales",
+      "title": "OFFRES DE SERVICES À COMMERCIALISER",
+      "subtitle": "Pistes de services à adapter au besoin réel du client. Les tarifs sont à construire après étude du périmètre.",
+      "headers": [
+        "Offre",
+        "Clients ciblés",
+        "Valeur proposée",
+        "Modèle de facturation à étudier",
+        null,
+        null
+      ],
+      "rows": [
+        [
+          "Assistant WhatsApp IA",
+          "PME, commerces, agences",
+          "Répondre aux questions fréquentes, collecter les demandes et transférer les cas complexes.",
+          "Mise en place + maintenance + coûts WhatsApp/API",
+          null,
+          null
+        ],
+        [
+          "Devis, factures et relances",
+          "PME, cabinets, prestataires",
+          "Automatiser la préparation des documents, le suivi des statuts et les rappels.",
+          "Mise en place + maintenance + coûts des outils",
+          null,
+          null
+        ],
+        [
+          "Prospection et CRM",
+          "Agences et équipes commerciales",
+          "Collecter des prospects depuis des sources autorisées, dédupliquer, qualifier et centraliser.",
+          "Projet + maintenance + éventuels frais de données",
+          null,
+          null
+        ],
+        [
+          "Rendez-vous et rappels",
+          "Cabinets, centres de formation, services",
+          "Vérifier les disponibilités, confirmer, rappeler et reprogrammer.",
+          "Mise en place + maintenance + coûts calendrier/SMS",
+          null,
+          null
+        ],
+        [
+          "Reporting et données",
+          "ONG, projets, PME",
+          "Collecter, contrôler, consolider et transmettre des rapports ou tableaux de bord.",
+          "Projet + support + hébergement éventuel",
+          null,
+          null
+        ]
+      ]
+    },
+    {
+      "name": "Outils et coûts",
+      "title": "OUTILS ET BUDGET",
+      "subtitle": "Repères généraux. Les services payants et leurs tarifs peuvent évoluer. Vérifiez les prix avant achat.",
+      "headers": [
+        "Outil",
+        "Utilité",
+        "Coût indicatif",
+        "Lien officiel",
+        null,
+        null
+      ],
+      "rows": [
+        [
+          "n8n local",
+          "Exécuter et apprendre les workflows sur ordinateur",
+          "Gratuit pour une installation communautaire auto-hébergée, sous conditions de licence",
+          "https://docs.n8n.io/",
+          null,
+          null
+        ],
+        [
+          "Docker",
+          "Lancer n8n dans un environnement isolé",
+          "Gratuit",
+          "https://www.docker.com/",
+          null,
+          null
+        ],
+        [
+          "VS Code",
+          "Éditer scripts et fichiers",
+          "Gratuit",
+          "https://code.visualstudio.com/",
+          null,
+          null
+        ],
+        [
+          "Google Sheets / Drive",
+          "Stockage et collaboration",
+          "Offre gratuite avec limites, offres payantes possibles",
+          "https://workspace.google.com/",
+          null,
+          null
+        ],
+        [
+          "Python",
+          "Traitement et analyse de données",
+          "Gratuit",
+          "https://www.python.org/",
+          null,
+          null
+        ],
+        [
+          "GitHub",
+          "Versionner et présenter les projets",
+          "Offre gratuite disponible",
+          "https://github.com/",
+          null,
+          null
+        ],
+        [
+          "OpenAI API",
+          "Modèles IA et génération",
+          "Payant selon usage et modèle",
+          "https://platform.openai.com/pricing",
+          null,
+          null
+        ],
+        [
+          "Hostinger VPS",
+          "Hébergement 24 h/24",
+          "Payant selon plan, durée et promotions",
+          "https://www.hostinger.com/fr/vps-hosting",
+          null,
+          null
+        ],
+        [
+          "Claude Code",
+          "Assistant de développement",
+          "Accès et coûts selon abonnement/conditions Anthropic",
+          "https://www.anthropic.com/claude-code",
+          null,
+          null
+        ],
+        [
+          "WhatsApp Business Platform",
+          "Messagerie automatisée",
+          "Tarification selon règles et pays applicables",
+          "https://developers.facebook.com/docs/whatsapp/",
+          null,
+          null
+        ]
+      ]
+    },
+    {
+      "name": "Suivi et évaluation",
+      "title": "SUIVI DE PROGRESSION",
+      "subtitle": "Cochez les compétences validées et ajoutez vos notes ou liens vers vos livrables.",
+      "headers": [
+        "Domaine",
+        "Critère de validation",
+        "Module",
+        "Statut",
+        "Notes / lien du livrable",
+        null
+      ],
+      "rows": [
+        [
+          "Installation",
+          "Installer n8n en local et accéder à l'interface",
+          "Module 1",
+          "À faire",
+          null,
+          null
+        ],
+        [
+          "Hébergement",
+          "Déployer n8n sur VPS avec HTTPS et sauvegardes",
+          "Module 1",
+          "À faire",
+          null,
+          null
+        ],
+        [
+          "Interface",
+          "Créer, exécuter et activer un workflow",
+          "Module 1",
+          "À faire",
+          null,
+          null
+        ],
+        [
+          "Intégrations",
+          "Connecter Google Sheets, Drive et Gmail",
+          "Module 1",
+          "À faire",
+          null,
+          null
+        ],
+        [
+          "Triggers",
+          "Choisir un déclencheur adapté au besoin",
+          "Module 2",
+          "À faire",
+          null,
+          null
+        ],
+        [
+          "JSON",
+          "Lire, filtrer et transformer des données JSON",
+          "Module 2",
+          "À faire",
+          null,
+          null
+        ],
+        [
+          "API",
+          "Faire un appel HTTP authentifié et gérer la réponse",
+          "Module 2",
+          "À faire",
+          null,
+          null
+        ],
+        [
+          "Webhooks",
+          "Recevoir et traiter un événement externe",
+          "Module 2",
+          "À faire",
+          null,
+          null
+        ],
+        [
+          "Logique",
+          "Utiliser IF, Switch, Merge et Loop",
+          "Module 2",
+          "À faire",
+          null,
+          null
+        ],
+        [
+          "IA",
+          "Construire un agent avec modèle et outils",
+          "Module 3",
+          "À faire",
+          null,
+          null
+        ],
+        [
+          "RAG",
+          "Créer un assistant documentaire avec sources",
+          "Module 3",
+          "À faire",
+          null,
+          null
+        ],
+        [
+          "Business",
+          "Automatiser rendez-vous, CRM ou relances",
+          "Module 4",
+          "À faire",
+          null,
+          null
+        ],
+        [
+          "Commercial",
+          "Rédiger une offre avec périmètre et coûts",
+          "Module 5",
+          "À faire",
+          null,
+          null
+        ],
+        [
+          "MCP",
+          "Connecter un client MCP à n8n avec permissions limitées",
+          "Module 6",
+          "À faire",
+          null,
+          null
+        ],
+        [
+          "Projet final",
+          "Livrer un projet testé, sécurisé et documenté",
+          "Final",
+          "À faire",
+          null,
+          null
+        ]
+      ]
+    },
+    {
+      "name": "Projet final ONG PME",
+      "title": "PROJET FINAL : GESTION AUTOMATISÉE DES DEMANDES",
+      "subtitle": "Projet conseillé pour relier n8n, IA, collecte de données et reporting.",
+      "headers": [
+        "Étape",
+        "Composants",
+        "Résultat attendu",
+        null,
+        null,
+        null
+      ],
+      "rows": [
+        [
+          "1. Entrée",
+          "Formulaire web, e-mail ou WhatsApp",
+          "Recevoir une demande et identifier le demandeur.",
+          null,
+          null,
+          null
+        ],
+        [
+          "2. Validation",
+          "Vérification des champs et doublons",
+          "Refuser ou mettre en attente les données incomplètes.",
+          null,
+          null,
+          null
+        ],
+        [
+          "3. Classification",
+          "Règles n8n et aide IA",
+          "Classer la demande par thème, priorité et service.",
+          null,
+          null,
+          null
+        ],
+        [
+          "4. Enregistrement",
+          "Google Sheets, Airtable ou base SQL",
+          "Créer une fiche avec identifiant et historique.",
+          null,
+          null,
+          null
+        ],
+        [
+          "5. Réponse assistée",
+          "RAG sur documents autorisés",
+          "Préparer une réponse sourcée, avec validation humaine si nécessaire.",
+          null,
+          null,
+          null
+        ],
+        [
+          "6. Attribution",
+          "Règles métier et notification",
+          "Affecter à un responsable et informer l'équipe.",
+          null,
+          null,
+          null
+        ],
+        [
+          "7. Suivi",
+          "Rappels et changement de statut",
+          "Suivre les délais et relancer selon les règles.",
+          null,
+          null,
+          null
+        ],
+        [
+          "8. Reporting",
+          "Power BI ou tableau de bord",
+          "Suivre volume, délais, catégories, statuts et qualité.",
+          null,
+          null,
+          null
+        ],
+        [
+          "9. Sécurité",
+          "Credentials, rôles, sauvegardes, journalisation",
+          "Protéger les accès et les données personnelles.",
+          null,
+          null,
+          null
+        ],
+        [
+          "10. Livraison",
+          "Documentation, tests, démonstration",
+          "Remettre un système maintenable et accepté par le client.",
+          null,
+          null,
+          null
+        ]
+      ]
+    }
+  ]
+}
