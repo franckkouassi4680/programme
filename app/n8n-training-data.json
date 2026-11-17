@@ -382,7 +382,7 @@
           "Docker",
           "Installation n8n avec Docker",
           "Officiel",
-          "https://docs.n8n.io/hosting/installation/docker/",
+          "https://docs.n8n.io/deploy/host-n8n/install-options/install-using-docker-compose/",
           null,
           null
         ],
